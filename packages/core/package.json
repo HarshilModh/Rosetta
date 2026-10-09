@@ -1,0 +1,23 @@
+{
+  "name": "@curbside/core",
+  "version": "0.1.0",
+  "private": true,
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "scripts": {
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@ai-sdk/google": "^1.1.0",
+    "@ai-sdk/groq": "^1.1.0",
+    "ai": "^4.1.0",
+    "drizzle-orm": "^0.38.0",
+    "ioredis": "^5.4.0",
+    "postgres": "^3.4.0",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "vitest": "^3.0.0"
+  }
+}
